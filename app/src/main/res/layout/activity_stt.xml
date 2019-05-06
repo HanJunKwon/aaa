@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.STTActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgPicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/bottle" />
+
+        <TextView
+            android:id="@+id/tvImageName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:layout_gravity="center"
+            android:textSize="12pt"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="녹음 시작" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="결과"
+        android:textSize="14pt" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:textSize="15pt" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvSyllable1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15pt" />
+
+        <TextView
+            android:id="@+id/tvSyllable2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvSyllable3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvSyllable4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvSyllable5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15pt"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvAnswerConsonantVowel1"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvAnswerConsonantVowel2"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvAnswerConsonantVowel3"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvAnswerConsonantVowel4"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvAnswerConsonantVowel5"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvAnswerConsonantVowel6"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvAnswerConsonantVowel7"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvAnswerConsonantVowel8"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvAnswerConsonantVowel9"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvAnswerConsonantVowel10"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvPatientConsonantVowel1"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvPatientConsonantVowel2"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvPatientConsonantVowel3"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvPatientConsonantVowel4"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvPatientConsonantVowel5"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvPatientConsonantVowel6"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvPatientConsonantVowel7"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvPatientConsonantVowel8"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvPatientConsonantVowel9"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/tvPatientConsonantVowel10"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:textSize="13pt"
+            android:background="@drawable/text_view_border"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Pre" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Next" />
+    </LinearLayout>
+
+</LinearLayout>
